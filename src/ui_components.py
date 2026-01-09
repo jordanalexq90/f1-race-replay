@@ -1122,7 +1122,7 @@ class RaceControlsComponent(BaseComponent):
     - Forward button (right)
     """
     
-    PLAYBACK_SPEEDS = [0.1, 0.2, 0.5, 1.0, 2.0, 4.0, 8.0, 16.0, 32.0, 64.0]
+    PLAYBACK_SPEEDS = [0.1, 0.2, 0.5, 1.0, 2.0, 4.0, 8.0, 16.0, 32.0, 64.0, 128.0, 256.0]
 
     def __init__(self, center_x: int = 100, center_y: int = 60, button_size: int = 40, visible=True):
         self.center_x = center_x
